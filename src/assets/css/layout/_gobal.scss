@@ -1,0 +1,34 @@
+@import "./variable";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily;
+}
+
+.container-div {
+  width: 1920px;
+  margin: auto;
+}
+
+.marging {
+  margin: auto 300px;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  h1 {
+    font-size: $FristHeadind;
+    line-height: 60px;
+  }
+}
+p {
+  font-size: $mobilPSize;
+}
+nav {
+  h2 {
+    font-size: 30px;
+    opacity: 0.8;
+  }
+}
